@@ -25,6 +25,9 @@ header > h1 {
     font-size: 4em;
     font-family: 'Alfa Slab One';
     font-weight: normal;
+    max-width: 1000px;
+    min-width: 100px;
+    margin: auto;
 }
 header a {
     text-decoration: none;
@@ -34,12 +37,30 @@ header a:hover {
     text-decoration: underline;
 }
 
-main {
+article {
     background-color: white;
 }
+
+div.q1 {
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+div.q2 {
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 main p {
     font-family: cursive;
-    width: 40%;
+    min-width: 200px;
+    max-width: 650px;
     padding: 40px 0px 40px 25px;
     font-size: 2em;
     line-height: 120px;
@@ -49,7 +70,7 @@ main p {
 }
 
 main p.transparente {
-    background-color: rgba(128, 128, 128, 0.253);
+    background-color: rgba(128, 128, 128, 0.445);
 }
 
 footer {
