@@ -7,10 +7,6 @@
 
 body {
     background-color: black;
-    background-image: url('imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 }
 
 header {
@@ -22,23 +18,28 @@ header {
 
 header > h1 {
     padding: 20px;
-    font-size: 4em;
+    font-size: 7vw;
+    font-variant: small-caps;
     font-family: 'Alfa Slab One';
     font-weight: normal;
-    max-width: 1000px;
-    min-width: 100px;
     margin: auto;
 }
-header a {
+a {
     text-decoration: none;
+    font-weight: bolder;
     color: white;
 }
-header a:hover {
+a:hover {
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 article {
     background-color: white;
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 0px;
 }
 
 div.q1 {
@@ -47,6 +48,9 @@ div.q1 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    padding: 150px;
+    padding-left: 0px;
 }
 
 div.q2 {
@@ -55,24 +59,33 @@ div.q2 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    padding: 150px;
+    padding-left: 0px;
 }
 
 main p {
     font-family: cursive;
-    min-width: 200px;
-    max-width: 650px;
-    padding: 40px 0px 40px 25px;
-    font-size: 2em;
-    line-height: 120px;
+    font-size: 3vw;
+    line-height: 2em;
     font-weight: bold;
     font-style: italic;
     margin-left: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-main p.transparente {
-    background-color: rgba(128, 128, 128, 0.445);
+p.transparente {
+    background-color: rgba(0, 0, 0, 0.445);
+    font-weight: 2em;
+    color: white;
+    display: inline-block;
+    height: 40vw;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    padding-right: 10px;
+    text-shadow: 3px 3px black;
 }
-
 footer {
     background-color: black;
     color: white;
