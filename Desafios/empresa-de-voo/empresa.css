@@ -31,7 +31,7 @@ div {
     border-radius: 15px;
 }
 
-a:hover {
-    height: 50px;
-    width: 50px;
+img:hover {
+    height: 300px;
+   animation-duration: 5s;
 }

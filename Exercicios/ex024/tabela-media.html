@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Medias</title>
+    <style>
+        table {
+            width: 700px;
+            border-collapse: collapse;
+        }
+
+        th, .geral {
+            background-color: grey;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .mgeral {
+            text-align: left;
+        }
+
+        .areas {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela de Medias</h1>
+    <table>
+        <tr>
+            <th rowspan="2">Aréa</th>
+            <th rowspan="2">Disciplinas</th>
+            <th colspan="2">Notas</th>
+            <th rowspan="2">Media</th>
+        </tr>
+        <tr>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+        </tr>
+        <tr>
+            <td rowspan="4" class="areas">Exatas</td>
+            <td>Matemática</td>
+            <td class="notas">0.0</td>
+            <td class="notas">0.0</td>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <td>Física</td>
+            <td class="notas">0.0</td>
+            <td class="notas">0.0</td>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <td>Quimica</td>
+            <td class="notas">0.0</td>
+            <td class="notas">0.0</td>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td class="notas">0.0</td>
+            <td class="notas">0.0</td>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4" class="mgeral">Media de Exatas</th>
+            <td class="geral">0.0</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="areas">Humanas</td>
+            <td>História</td>
+            <td class="notas">0.0</td>
+            <td class="notas">0.0</td>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td class="notas">0.0</td>
+            <td class="notas">0.0</td>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4" class="mgeral">Media de Humanas</th>
+            <td class="geral">0.0</td>
+        </tr>
+    </table>
+</body>
+</html>
